@@ -115,7 +115,6 @@ else:
     
     
 
-SUDO_USERS.add(OWNER_ID)
 DEV_USERS.add(OWNER_ID)
 
 if SPAMWATCH == None:
