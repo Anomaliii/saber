@@ -108,14 +108,12 @@ if ENV:
     except ValueError:
         raise Exception(
             "Your blacklisted chats list does not contain valid integers.")
-
-
-else:
-     LOGGER.warning("Unknown Crash!")
-    
     
 
-DEV_USERS.add(OWNER_ID)
+SUDO_USERS.append(OWNER_ID)
+DEV_USERS.append(OWNER_ID)
+
+
 
 if SPAMWATCH == None:
     spamwtc = None
