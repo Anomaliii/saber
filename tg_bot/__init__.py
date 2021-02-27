@@ -110,11 +110,6 @@ if ENV:
             "Your blacklisted chats list does not contain valid integers.")
     
 
-SUDO_USERS.append(OWNER_ID)
-DEV_USERS.append(OWNER_ID)
-
-
-
 if SPAMWATCH == None:
     spamwtc = None
     LOGGER.warning("Invalid spamwatch api")
